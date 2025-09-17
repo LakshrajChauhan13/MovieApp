@@ -71,7 +71,7 @@ const Home = () => {
     (<div className='text-6xl font-bold text-white absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'> loading... </div>) :
     (<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-10'>
     {Movies.map(function(e,idx){
-        return <MovieCard data={e} key={idx} />
+        return <MovieCard movie={e} key={idx} />
     })}
     </div>
     ) }
