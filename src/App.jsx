@@ -16,8 +16,8 @@ function App() {
    <div>
     <Navbar />
     <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/favorites' element={<Favorites />} />
+      <Route path='/MovieApp' element={<Home />} />
+      <Route path='/MovieApp/favorites' element={<Favorites />} />
     </Routes>
    
     {/* <MovieCard /> */}
