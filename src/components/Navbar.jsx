@@ -8,8 +8,8 @@ const Navbar = () => {
         <div className='px-5 py-3 text-3xl font-thin text-red-500 flex justify-between items-center bg-black '> 
             <div> Movie App </div>
             <div className='flex justify-between items-center gap-8'> 
-                <Link to="/MovieApp"> Home </Link>
-                <Link to="/MovieApp/favorites"> Favorites </Link>
+                <Link to="/"> Home </Link>
+                <Link to="/favorites"> Favorites </Link>
             </div>
         </div>
   )
